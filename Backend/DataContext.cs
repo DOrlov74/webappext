@@ -16,6 +16,7 @@ namespace Backend
         public DbSet<UserRequest> userRequests { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<UserRequest>().HasData(
                 new UserRequest[]
                 {
