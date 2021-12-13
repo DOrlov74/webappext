@@ -24,7 +24,7 @@ Ext.define('Frontend.model.UserRequest', {
     },
     proxy: {
         type: 'rest',
-        url: 'https://localhost:44362/api/userrequests',
+        url: '/api/userrequests',
         appendId: true,
         pageParam: '',
         sortParam: '',
