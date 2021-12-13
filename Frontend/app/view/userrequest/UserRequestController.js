@@ -99,7 +99,7 @@ Ext.define('Frontend.view.userrequest.UserRequestController', {
         if (form.isValid()) {
             form.submit({
                 clientValidation: true,
-                url: 'https://localhost:44362/api/userrequests',
+                url: '/api/userrequests',
                 scope: me,
                 success: 'onSaveSuccess',
                 failure: 'onSaveFailure',

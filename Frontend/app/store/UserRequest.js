@@ -9,7 +9,7 @@ Ext.define('Frontend.store.UserRequest', {
 
     proxy: {
         type: 'rest',
-        url: 'https://localhost:44362/api/userrequests',
+        url: '/api/userrequests',
         reader: {
             type: 'json',
         },
